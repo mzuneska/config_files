@@ -1,7 +1,7 @@
 # See options at http://www.kernel.org/pub/software/scm/git/docs/git-config.html
 [user]
 	name = Mark Zuneska
-	email = mark.zuneska@simonandschuster.com
+	email = mark.zuneska@gmail.com
 [alias]
   co = checkout
 
