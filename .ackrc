@@ -4,3 +4,5 @@
 --ignore-dir=cache
 --ignore-dir=log
 --type-add=xml=.xqy
+--type-add=html=.haml
+--type-add=css=.sass,.scss
