@@ -5,4 +5,9 @@
 --ignore-dir=log
 --type-add=xml=.xqy
 --type-add=html=.haml
---type-add=css=.sass,.scss
+--type-add=html=.handlebars
+--type-add=html=.hbs
+--type-add=html=.jst
+--type-set=coffee=.coffee
+--type-add=css=.scss
+--type-set=less=.less
