@@ -47,3 +47,4 @@ complete -o nospace -F __goto_gopath_completion g
 
 export PATH="$HOME/.rbenv/bin:./node_modules/.bin:$PATH"
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+if test -d ~/.nvm; then . ~/.nvm/nvm.sh; fi
