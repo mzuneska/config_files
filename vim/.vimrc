@@ -41,3 +41,11 @@ let g:syntastic_mode_map = { 'mode': 'active', 'active_filetypes': [], 'passive_
 " Better :sign interface symbols
 let g:syntastic_error_symbol = '✗'
 let g:syntastic_warning_symbol = '!'
+
+"golang
+autocmd filetype go set nolist
+let g:go_fmt_command = "goimports"
+au FileType go nmap gd <Plug>(go-doc)
+
+" Stop vim-go from being stupid
+let g:go_disable_autoinstall = 1
