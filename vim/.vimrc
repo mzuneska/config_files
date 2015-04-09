@@ -21,6 +21,9 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 
+" Show matching braces
+set showmatch
+
 " move around windows easier
 map <C-h> <C-w>h
 map <C-j> <C-w>j
