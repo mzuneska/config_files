@@ -29,3 +29,18 @@ alias vssh="vagrant ssh"
 alias mvi="/usr/local/bin/mvim"
 alias ll="ls -lah"
 
+# Go
+export GOPATH="$HOME/p/go"
+export GOBIN="$GOPATH/bin"
+export PATH="$PATH:$GOBIN"
+
+# supports 'g' command which autocompletes to github go src path
+function g() { cd $GOPATH/src/github.com/$1 ; }
+function __goto_gopath_completion()
+{
+  local word=${COMP_WORDS[COMP_CWORD]}
+  local count=$(echo $GOPATH/src/github.com/ |wc -m)
+
+  COMPREPLY=( $(compgen -S/ -d $GOPATH/src/github.com/$word | cut -b $count-) ) 
+}
+complete -o nospace -F __goto_gopath_completion g
