@@ -6,6 +6,9 @@ colorscheme vividchalk
 set encoding=utf-8
 filetype plugin indent on
 
+" html like files should have html highlighting
+au BufRead,BufNewFile *.handlebars,*.hbs set filetype=html
+
 " turn on line numbers
 set number
 
