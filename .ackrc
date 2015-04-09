@@ -3,6 +3,8 @@
 --type-set=ignorables=.log,.tmp,.pdf
 --ignore-dir=cache
 --ignore-dir=log
+--ignore-dir=node_modules
+--ignore-dir=tmp
 --type-add=xml=.xqy
 --type-add=html=.haml
 --type-add=html=.handlebars
