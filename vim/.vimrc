@@ -6,6 +6,9 @@ colorscheme vividchalk
 set encoding=utf-8
 filetype plugin indent on
 
+" set the swap dir so don't have to add to .gitignore everytime
+set directory^=$HOME/.vim_swap//
+
 " html like files should have html highlighting
 au BufRead,BufNewFile *.handlebars,*.hbs set filetype=html
 
