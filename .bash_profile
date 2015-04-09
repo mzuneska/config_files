@@ -44,3 +44,6 @@ function __goto_gopath_completion()
   COMPREPLY=( $(compgen -S/ -d $GOPATH/src/github.com/$word | cut -b $count-) ) 
 }
 complete -o nospace -F __goto_gopath_completion g
+
+export PATH="$HOME/.rbenv/bin:./node_modules/.bin:$PATH"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
