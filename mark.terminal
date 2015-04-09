@@ -21,6 +21,8 @@
 	cmNoaXZlctEXGFRyb290gAEIERojLTI3O0FITltikJKUmaSttbjB09bbAAAAAAAAAQEA
 	AAAAAAAAGQAAAAAAAAAAAAAAAAAAAN0=
 	</data>
+	<key>Bell</key>
+	<false/>
 	<key>CursorBlink</key>
 	<false/>
 	<key>CursorColor</key>
@@ -38,10 +40,10 @@
 	<data>
 	YnBsaXN0MDDUAQIDBAUGGBlYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3AS
 	AAGGoKQHCBESVSRudWxs1AkKCwwNDg8QVk5TU2l6ZVhOU2ZGbGFnc1ZOU05hbWVWJGNs
-	YXNzI0AsAAAAAAAAEBCAAoADW0luY29uc29sYXRh0hMUFRZaJGNsYXNzbmFtZVgkY2xh
-	c3Nlc1ZOU0ZvbnSiFRdYTlNPYmplY3RfEA9OU0tleWVkQXJjaGl2ZXLRGhtUcm9vdIAB
-	CBEaIy0yNzxCS1JbYmlydHZ4hImUnaSnsMLFygAAAAAAAAEBAAAAAAAAABwAAAAAAAAA
-	AAAAAAAAAADM
+	YXNzI0AsAAAAAAAAEBCAAoADXkluY29uc29sYXRhLWR60hMUFRZaJGNsYXNzbmFtZVgk
+	Y2xhc3Nlc1ZOU0ZvbnSiFRdYTlNPYmplY3RfEA9OU0tleWVkQXJjaGl2ZXLRGhtUcm9v
+	dIABCBEaIy0yNzxCS1JbYmlydHZ4h4yXoKeqs8XIzQAAAAAAAAEBAAAAAAAAABwAAAAA
+	AAAAAAAAAAAAAADP
 	</data>
 	<key>FontAntialias</key>
 	<true/>
@@ -50,7 +52,7 @@
 	<key>Linewrap</key>
 	<true/>
 	<key>ProfileCurrentVersion</key>
-	<real>2.02</real>
+	<real>2.04</real>
 	<key>ScrollbackLines</key>
 	<integer>100000</integer>
 	<key>SelectionColor</key>
@@ -81,8 +83,12 @@
 	TlNPYmplY3RfEA9OU0tleWVkQXJjaGl2ZXLRFxhUcm9vdIABCBEaIy0yNztBSFBdZHBy
 	dHmEjZWYobO2uwAAAAAAAAEBAAAAAAAAABkAAAAAAAAAAAAAAAAAAAC9
 	</data>
+	<key>UseBrightBold</key>
+	<true/>
+	<key>VisualBell</key>
+	<false/>
 	<key>columnCount</key>
-	<integer>170</integer>
+	<integer>120</integer>
 	<key>name</key>
 	<string>Mark</string>
 	<key>rowCount</key>
