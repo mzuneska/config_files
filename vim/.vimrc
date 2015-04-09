@@ -30,6 +30,9 @@ map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
 
+" Open files in new tabs from netwr directory browser
+let g:netrw_browse_split = 3
+
 " [Syntastic]
 " http://blog.thomasupton.com/2012/05/syntastic/#setup
 let g:syntastic_mode_map = { 'mode': 'active', 'active_filetypes': [], 'passive_filetypes': ['html'] }
