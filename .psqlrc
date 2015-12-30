@@ -1,0 +1,11 @@
+-- http://www.craigkerstiens.com/2015/12/29/my-postgres-top-10-for-2016/
+
+\set QUIET 1
+
+\pset null '∅'
+\x auto
+\timing
+\set HISTFILE ~/.psql_history- :DBNAME
+\set COMP_KEYWORD_CASE upper
+
+\unset QUIET
