@@ -29,6 +29,15 @@ map Y y$
 call pathogen#infect()
 set directory^=$HOME/.vim_swap// " one place so I don't have to add to .gitignore
 
+" [Syntastic]
+" http://blog.thomasupton.com/2012/05/syntastic/#setup
+let g:syntastic_mode_map = { 'mode': 'active', 'active_filetypes': [], 'passive_filetypes': ['html'] }
+
+" https://github.com/tupton/vim-support/blob/master/vimrc#L302
+" Better :sign interface symbols
+let g:syntastic_error_symbol = '✗'
+let g:syntastic_warning_symbol = '!'
+
 " Open files in new tabs from netwr directory browser
 let g:netrw_browse_split = 3
 
@@ -48,8 +57,28 @@ set showmatch " highlight matching [{()}]
 set foldlevelstart=3 " open the first 3 folds
 set foldmethod=indent " fold based on indent level (which is the most useful for code)
 
+"golang
+autocmd filetype go set nolist
+let g:go_fmt_command = "goimports"
+let g:go_highlight_extra_types = 0
+let g:go_highlight_trailing_whitespace_error = 0
+let g:go_highlight_operators = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_structs = 1
+let g:go_highlight_build_constraints = 1
+let g:go_highlight_string_spellcheck = 0
+let g:go_textobj_enabled = 0
+"au FileType go nmap gd <Plug>(go-doc)
+"au FileType go imap <tab><tab> <C-x><C-o>
+
 " Stop vim-go from being stupid
 let g:go_disable_autoinstall = 1
 
 " turn on match plugin
 runtime macros/matchit.vim
+
+" Format JSON files (requires python json library to be installed)
+nmap =js :%!python -m json.tool<CR>
+
+
