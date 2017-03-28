@@ -57,6 +57,10 @@ set showmatch " highlight matching [{()}]
 set foldlevelstart=10 " open the first N folds
 set foldmethod=indent " fold based on indent level (which is the most useful for code)
 
+" modeline
+set modeline
+set modelines=1 " allow the first 1 or last 1 line of a file to have file specific vim directives
+
 "golang
 autocmd filetype go set nolist
 let g:go_fmt_command = "goimports"
