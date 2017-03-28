@@ -54,7 +54,7 @@ set lazyredraw " redraw only when needed
 set showmatch " highlight matching [{()}]
 
 " folding
-set foldlevelstart=3 " open the first 3 folds
+set foldlevelstart=10 " open the first N folds
 set foldmethod=indent " fold based on indent level (which is the most useful for code)
 
 "golang
