@@ -53,6 +53,8 @@ set wildmenu " visual autocomplete for command menu
 set lazyredraw " redraw only when needed
 set showmatch " highlight matching [{()}]
 
+" make sure there are always N lines at top and bottom of screen (until no more lines)
+set scrolloff=6
 
 " modeline
 set modeline
