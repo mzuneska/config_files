@@ -58,7 +58,6 @@ set scrolloff=6
 
 " modeline
 set modeline
-set modelines=1 " allow the first 1 or last 1 line of a file to have file specific vim directives
 
 "golang
 autocmd filetype go set nolist
