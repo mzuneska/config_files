@@ -59,6 +59,10 @@ set scrolloff=6
 " modeline
 set modeline
 
+" search
+set ignorecase " disregard case when searching
+set smartcase  " with ignorecase _enabled_ match the case if an upper case character is searched for!
+
 "golang
 autocmd filetype go set nolist
 let g:go_fmt_command = "goimports"
