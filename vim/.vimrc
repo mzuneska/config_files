@@ -82,10 +82,12 @@ let g:go_textobj_enabled = 0
 " Stop vim-go from being stupid
 let g:go_disable_autoinstall = 1
 
+" Make 'go to definition' work with vim-go
+let go:go_def_mode='godef'
+
 " turn on match plugin
 runtime macros/matchit.vim
 
 " Format JSON files (requires python json library to be installed)
 nmap =js :%!python -m json.tool<CR>
-
 
