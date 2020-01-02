@@ -64,6 +64,7 @@ set ignorecase " disregard case when searching
 set smartcase  " with ignorecase _enabled_ match the case if an upper case character is searched for!
 
 "golang
+let g:syntastic_go_checkers = []
 autocmd filetype go set nolist
 let g:go_fmt_command = "goimports"
 let g:go_highlight_extra_types = 0
