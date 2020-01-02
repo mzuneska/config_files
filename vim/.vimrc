@@ -53,9 +53,6 @@ set wildmenu " visual autocomplete for command menu
 set lazyredraw " redraw only when needed
 set showmatch " highlight matching [{()}]
 
-" folding
-set foldlevelstart=10 " open the first N folds
-set foldmethod=indent " fold based on indent level (which is the most useful for code)
 
 " modeline
 set modeline
