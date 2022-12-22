@@ -1,7 +1,7 @@
-# See options at http://www.kernel.org/pub/software/scm/git/docs/git-config.html
 [user]
 	name = mzuneska
 	email = mzuneska@gmail.com
+	signingkey = 244078FE749004DA
 [alias]
   co = checkout
 
@@ -33,7 +33,11 @@
 [color "sh"]
   branch = yellow
 [push]
-  # 'git push' should only do the current branch, not all
-  default = current
+# 'git push' should only do the current branch, not all
+default = current
 [core]
-	excludesfile = /Users/mark/.gitignore_global
+	excludesfile = ~/.gitignore_global
+[credential]
+	helper = osxkeychain
+[commit]
+	gpgsign = false
